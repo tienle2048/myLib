@@ -25,12 +25,19 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '89031447' => 'leviettien456789@gmail.com' }
-  s.source           = { :git => 'https://github.com/89031447/MyLibrary.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/tienle2048/myLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'MyLibrary/Classes/**/*'
+
+  # s.dependency "BIP39"
+  # s.dependency "TweetNacl" 
+  # s.dependency "TrustWalletCore"
+  # s.dependency "Ed25519HDKeySwift"
+  # s.dependency "Sr25519/Sr25519"
+  # s.dependency "SwiftProtobuf"
   
   # s.resource_bundles = {
   #   'MyLibrary' => ['MyLibrary/Assets/*.png']
